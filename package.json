@@ -1,0 +1,23 @@
+{
+  "name": "gints",
+  "version": "1.0.0",
+  "description": "a pull request for every change in backend",
+  "main": "/src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon build",
+    "test": "tsc && mocha build/**/*.spec.js",
+    "tsc": "tsc"
+  },
+  "author": "Mohamed Nasser",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  }
+}

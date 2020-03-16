@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "build"
+  },
+  "files": ["./node_modules/@types/node/index.d.ts"],
+  "include": ["src/*.ts", "src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

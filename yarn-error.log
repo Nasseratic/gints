@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add @types/jest
+
+PATH: 
+  /usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/mohamednasser/bin:/var/lib/snapd/snap/bin:/home/mohamednasser/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/mohamednasser/.cache/yarn/v4/npm-@jest-types-25.1.0-b26831916f0d7c381e11dbb5e103a72aed1b4395/node_modules/@jest/types/build/Circus.d.ts' -> '/home/mohamednasser/Documents/parse-go-with-js/node_modules/@jest/types/build/Circus.d.ts'
+
+npm manifest: 
+  {
+    "name": "gints",
+    "version": "1.0.0",
+    "description": "a pull request for every change in backend",
+    "main": "/src/index.ts",
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch & nodemon build",
+      "test": "tsc && mocha build/**/*.spec.js",
+      "lint": "eslint src --ext ts",
+      "tsc": "tsc"
+    },
+    "author": "Mohamed Nasser",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {
+      "@types/node": "^13.9.1",
+      "nodemon": "^2.0.2",
+      "typescript": "^3.8.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
