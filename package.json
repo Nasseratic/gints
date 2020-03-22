@@ -5,14 +5,21 @@
   "main": "/src/index.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch & nodemon build",
+    "start": "tsc && node ./build",
     "test": "tsc && mocha build/**/*.spec.js",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "dd": "nodemon ./build"
   },
   "author": "Mohamed Nasser",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^13.9.1",
+    "@types/nodegit": "^0.26.1",
+    "@types/recursive-readdir": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "nodegit": "^0.26.5",
+    "recursive-readdir": "^2.2.2",
     "typescript": "^3.8.3"
   },
   "devDependencies": {

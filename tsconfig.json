@@ -4,7 +4,6 @@
     "module": "commonjs",
     "outDir": "build"
   },
-  "files": ["./node_modules/@types/node/index.d.ts"],
-  "include": ["src/*.ts", "src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["node_modules/@types/*", "src/*.ts", "src/**/*.ts"],
+  "exclude": ["node_modules/*", "**/*.spec.ts"]
 }
